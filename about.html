@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hackerfleet's developer homepage</title>
+
+    <link rel="stylesheet" href="vendor/clear-sans-webfont/css/clear-sans.css" type="text/css"/>
+    <link rel="stylesheet" href="vendor/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="main.css" type="text/css"/>
+</head>
+<body>
+<div class="container">
+    <div class="well">
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation"><a href="index.html" role="tab"><span
+                    class="center-block fa glyphicon icon-hf-logo hf-dark logo-small"></span></a></li>
+            <li role="presentation" class="active"><a href="#hackerfleet" aria-controls="hackerfleet" role="tab"
+                                                      data-toggle="tab">Hackerfleet</a></li>
+            <li role="presentation"><a href="#goals" aria-controls="goals" role="tab" data-toggle="tab">Goals</a></li>
+            <li role="presentation"><a href="#hfos" aria-controls="hfos" role="tab" data-toggle="tab">HFOS</a></li>
+            <li role="presentation"><a href="#contact" aria-controls="contact" role="tab" data-toggle="tab">Contact</a>
+            </li>
+        </ul>
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="hackerfleet">
+                <h3>Hackerfleet Development Community</h3>
+                <p>We develop opensource hardware and software for unmanned and manned vessels
+                    on all waters. We develop publicly and transparent, <a
+                            href="https://github.com/hackerfleet/">our repositories are open
+                        for you</a>.</p>
+
+            </div>
+
+            <div role="tabpanel" class="tab-pane" id="hfos">
+                <h3>Hackerfleet Operating System</h3>
+                <p>To accomplish <a href="#goals" aria-controls="goals" data-toggle="tab">our ambitious goals</a>, we
+                    developed <a href="https://github.com/hackerfleet/hfos">a new kind of networked application
+                        framework, called HFOS</a>.
+                </p>
+                <ul>
+                    <li>Backend works on embedded systems (Python)</li>
+                    <li>Frontend works on all common browsers (Angular)</li>
+                    <li>Realtime collaboration features</li>
+                    <li>Well structured information architecture</li>
+                    <li>Modular and component based infrastructure</li>
+                    <li>(Planned) Mesh based collaboration</li>
+                </ul>
+            </div>
+
+            <div role="tabpanel" class="tab-pane" id="goals">
+                <h3>Our goals are:</h3>
+                <ul>
+                    <li>We want to give sailors the best digital crew tools possible.</li>
+                    <li>We aim to establish a better communication network between
+                        compatible hardware, for automatic data exchange between ships.
+                    </li>
+                    <li>We want to aggregate all the information that is currently thrown away on
+                        shipbridges all over the world and use it, to make the best free map of the ocean.
+                    </li>
+                    <li>This vast ressource of currently nearly unused data will also help
+                        scientists understand our oceans better.
+                    </li>
+
+                </ul>
+            </div>
+
+            <div role="tabpanel" class="tab-pane" id="contact">
+                <h3>Contact</h3>
+                <ul>
+                    <li><a href="mailto:riot@c-base.org">Email</a></li>
+                    <li><a href="irc://#hackerfleet@irc.freenode.org">IRC</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="./vendor/jquery.slim.min.js" type="application/javascript"></script>
+<script src="./vendor/tab.js" type="application/javascript"></script>
+</html>
