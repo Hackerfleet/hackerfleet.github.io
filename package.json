@@ -1,0 +1,34 @@
+{
+  "name": "hackerfleet.github.io",
+  "version": "1.0.0",
+  "description": "Hackerfleet Development Community Homepage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hackerfleet/hackerfleet.github.io.git"
+  },
+  "keywords": [
+    "Homepage",
+    "Hackerfleet",
+    "Community",
+    "Naval",
+    "Development",
+    "Maritime",
+    "Maps",
+    "Charts"
+  ],
+  "author": "riot@c-base.org",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/hackerfleet/hackerfleet.github.io/issues"
+  },
+  "homepage": "https://github.com/hackerfleet/hackerfleet.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "clear-sans-webfont": "^1.0.1",
+    "jquery": "^3.1.1"
+  }
+}
