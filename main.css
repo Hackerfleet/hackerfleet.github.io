@@ -1,40 +1,11 @@
-@font-face {
-    font-family: 'misc-icons';
-    src: url('assets/fonts/misc-icons.eot?-3u7zq');
-    src: url('assets/fonts/misc-icons.eot?#iefix-3u7zq') format('embedded-opentype'),
-    url('assets/fonts/misc-icons.woff?-3u7zq') format('woff'),
-    url('assets/fonts/misc-icons.ttf?-3u7zq') format('truetype'),
-    url('assets/fonts/misc-icons.svg?-3u7zq#misc-icons') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-[class^="icon-"], [class*=" icon-"] {
-    font-family: 'misc-icons';
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
 body {
     background: url("./assets/images/calmsea.jpg") no-repeat center center fixed;
     background-size: cover;
+    color: #555555;
 }
 
 *:not(.fa) {
     font-family: 'Clear Sans', sans-serif !important;
-}
-
-
-.icon-hf-logo:before {
-    content: "\e600";
 }
 
 .hf-dark {
@@ -53,14 +24,13 @@ body {
 
 .well {
     opacity: 1;
-    border-radius: 10px;
-    background: rgba(255, 245, 238, 0.75);
     width: 33vw;
     position: absolute;
     left: 33vw;
     padding: 20px;
     top: 25vh;
     border: none;
+    background: rgba(255, 245, 238, 0.75);
     box-shadow: 0 0 100px 100px rgba(255, 245, 238, 0.75);
     border-radius: 20px;
 }
@@ -87,4 +57,64 @@ h3 .text-center {
 
 .text-center {
     text-align: center
+}
+
+.tab2 {
+    left: 132px;
+}
+
+.tab3 {
+    left: 254px;
+}
+
+.tab4 {
+    left: 376px;
+}
+
+.tab-folder > .tab-content:target ~ .tab-content:last-child, .tab-folder > .tab-content {
+    display: none;
+}
+
+.tab-folder > :last-child, .tab-folder > .tab-content:target {
+    display: block;
+}
+
+#menu {
+    list-style-type: none;
+}
+
+#menu li {
+    float: left;
+    width: 99px;
+    border-right: 1px solid #999;
+}
+
+#menu li:hover {
+    border-right: 1px solid #fff;
+}
+
+#menu li a {
+    float: left;
+    width: 99px;
+    font-size: 14px;
+    font-weight: bold;
+    height: 24px;
+    padding: 10px 0 8px 0;
+    text-align: center;
+    z-index: 10;
+}
+
+#menu li a:hover {
+    background: #fff;
+    color: #555555;
+    text-decoration: none;
+    border-right: none;
+}
+
+#menu li:last-child {
+    border-right: none;
+}
+
+#boxes {
+    padding: 10px 20px;
 }
