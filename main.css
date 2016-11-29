@@ -24,15 +24,29 @@ body {
 
 .well {
     opacity: 1;
-    width: 33vw;
     position: absolute;
-    left: 33vw;
-    padding: 20px;
-    top: 25vh;
     border: none;
     background: rgba(255, 245, 238, 0.75);
     box-shadow: 0 0 100px 100px rgba(255, 245, 238, 0.75);
     border-radius: 20px;
+}
+
+@media (max-width: 1200px) {
+    .well {
+        width: 60vw;
+        left: 20vw;
+        padding: 20px;
+        top: 25vh;
+    }
+}
+
+@media (min-width: 1200px) {
+    .well {
+        width: 33vw;
+        left: 33vw;
+        padding: 20px;
+        top: 25vh;
+    }
 }
 
 a {
@@ -116,5 +130,10 @@ h3 .text-center {
 }
 
 #boxes {
+    display: inline-block;
     padding: 10px 20px;
+}
+
+#contact {
+    padding-right: 50px;
 }
