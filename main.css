@@ -35,16 +35,16 @@ body {
     .well {
         width: 60vw;
         left: 20vw;
-        padding: 20px;
+        padding: 15px;
         top: 25vh;
     }
 }
 
 @media (min-width: 1200px) {
     .well {
-        width: 33vw;
-        left: 33vw;
-        padding: 20px;
+        width: 42vw;
+        left: 29vw;
+        padding: 15px;
         top: 25vh;
     }
 }
@@ -73,18 +73,6 @@ h3 .text-center {
     text-align: center
 }
 
-.tab2 {
-    left: 132px;
-}
-
-.tab3 {
-    left: 254px;
-}
-
-.tab4 {
-    left: 376px;
-}
-
 .tab-folder > .tab-content:target ~ .tab-content:last-child, .tab-folder > .tab-content {
     display: none;
 }
@@ -99,7 +87,7 @@ h3 .text-center {
 
 #menu li {
     float: left;
-    width: 99px;
+    /*width: 99px; */
     border-right: 1px solid #999;
 }
 
@@ -109,11 +97,11 @@ h3 .text-center {
 
 #menu li a {
     float: left;
-    width: 99px;
+    padding-left: 10px;
+    padding-right: 10px;
     font-size: 14px;
     font-weight: bold;
     height: 24px;
-    padding: 10px 0 8px 0;
     text-align: center;
     z-index: 10;
 }
