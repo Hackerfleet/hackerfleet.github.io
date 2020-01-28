@@ -2,6 +2,7 @@ body {
     background: url("./assets/images/calmsea.jpg") no-repeat center center fixed;
     background-size: cover;
     color: #555555;
+    margin: 0;
 }
 
 *:not(.fa) {
@@ -71,6 +72,37 @@ h3 .text-center {
 
 .text-center {
     text-align: center
+}
+
+.pull-right {
+  text-align: right;
+}
+
+.copyright a {
+  color: black !important;
+}
+
+.copyright a:hover {
+  color: white !important;
+}
+
+.copyright {
+  color: #1c3d6e !important;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.1);
+  border: solid rgba(255, 255, 255, 0.05) 5px;
+  border-radius: 5px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-size: small;
+}
+
+.copyright:hover {
+  background: rgba(255, 255, 255, 0.5);
+  border: solid rgba(255, 255, 255, 0.2) 5px;
 }
 
 .tab-folder > .tab-content:target ~ .tab-content:last-child, .tab-folder > .tab-content {
